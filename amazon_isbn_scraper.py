@@ -1,8 +1,4 @@
 
-# coding: utf-8
-
-# In[48]:
-
 """
 This script scrapes the ISBNs for best-selling books off of Amazon.
 It works by constructing a tree of categories/subcategories from each page,
@@ -120,15 +116,4 @@ def traverse_tree(node):
         return
     for child in node.children:
         traverse_tree(child)
-
-
-
-# In[29]:
-
-
-
-
-# In[ ]:
-
-
 
